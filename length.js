@@ -35,14 +35,12 @@ if (senha.length < 6) {
 
 No exemplo a seguir demonstramos como fazer uma validação simples de CPF: */
 
+var cpf = "124.587.748-15";
 
-var cpf = "124.587.748-15"
-
-if(cpf.length == "14") {
-    console.log("CPF com o tamanho correto")
-
-}else {
-    console.log("Verificar campo do CPF")
+if (cpf.length == "14") {
+  console.log("CPF com o tamanho correto");
+} else {
+  console.log("Verificar campo do CPF");
 }
 
 /* Exemplo 06 
@@ -51,6 +49,5 @@ No exemplo a seguir iremos iterar sobre um array utilizando a propriedade length
 
 var frutas = ["banana", "abacaxi", "abacate", "laranja", "morango", "abacate"];
 for (var posicao = 0; posicao < frutas.length; posicao++) {
-    console.log(frutas[posicao])
+  console.log(frutas[posicao]);
 }
-
